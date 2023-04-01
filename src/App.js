@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import ReactTabs from './ReactTabs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <h1 style={{marginBottom: '20px'}}><strong>Everything</strong> you need for <strong>any workflow</strong></h1>
+   <p style={{marginBottom: '20px'}}>Easy build your ideal workflow with monday.com building blocks.</p>
+   <div style={{margin: '50px'}}>
+      <ReactTabs />
+   </div>
+</div>
   );
 }
 
